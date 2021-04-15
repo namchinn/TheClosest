@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SplashScreen"
+    android:background="#2B2B2B"
+    android:orientation="vertical">
+
+
+    <ImageView
+        android:id="@+id/logooo"
+        android:layout_width="270dp"
+        android:layout_height="270dp"
+        android:background="@drawable/logo"
+        android:layout_gravity="center"
+        android:layout_marginTop="170dp"/>
+
+    <TextView
+        android:id="@+id/closest"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:fontFamily="@font/allura"
+        android:text="The Closest"
+        android:textColor="#ffca3e"
+        android:textSize="40dp" />
+
+    <TextView
+        android:id="@+id/oirhon"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="-60dp"
+        android:text="Хамгийн ойр"
+        android:textColor="#51FFCA3E"
+        android:textSize="15dp" />
+
+
+</LinearLayout>
